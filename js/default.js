@@ -125,3 +125,7 @@ function getCookie(c_name){
   
   return"";
 }
+
+document.getElementById('remove_cookie').onsubmit = function(){
+  setCookie('lastDate',"",0);
+};
