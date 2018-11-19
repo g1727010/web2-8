@@ -129,3 +129,7 @@ function getCookie(c_name){
 document.getElementById('remove_cookie').onsubmit = function(){
   setCookie('lastDate',"",0);
 };
+
+document.getElementById('form').onsubmit = function(){
+  window.alert(document.getElementById('form').word.value);
+};
