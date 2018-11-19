@@ -31,3 +31,10 @@ for8 var i = 0; i < 12; i++)
 li.textContent = constellatio[i];
 document.getElementById('array').appendChild(li)
 }
+
+var player = {name:'ぼけぼけ', age:20, blood'A'};
+for(key in player){
+  var li = document.createElement('li');
+  li.textContent = key + ':' + player[key];
+  document.getElementById('object').appendChild(li);
+}
