@@ -24,3 +24,10 @@ while(0 < HP){
    li.textContent = price + '円（税込み' + include_tax(price) + '円）';
    document.getElementById('price')appendChild(li);
  }
+
+var constellatio = ['牡羊座','牡牛座','双子座','蟹座','獅子座','乙女座','天秤座','蠍座','射手座','山羊座','水瓶座','魚座'];
+for8 var i = 0; i < 12; i++)
+  var li = document.createElement('li');
+li.textContent = constellatio[i];
+document.getElementById('array').appendChild(li)
+}
