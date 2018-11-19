@@ -10,6 +10,6 @@ while(0 < HP){
   var damage = Math.floor(Math.random() * 100);
   HP -= damage;
   HP = (HP < 0) ? 0: HP;
-  li.textContnt = danmage + 'のダメージを受けた。残りのHP： + HP;
+  li.textContnt = danmage + 'のダメージを受けた。残りのHP：' + HP;
   document.getElementById('while').appendChild(li);
 }
