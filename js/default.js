@@ -131,7 +131,7 @@ document.getElementById('remove_cookie').onsubmit = function(){
 };
 
 document.getElementById('form').onsubmit = function(){
-  window.alert(document.getElementById('form').word.value);
+  window.alert('押されました');
 };
 
 document.getElementById('form').onsubmit = function(){
